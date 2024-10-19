@@ -1,0 +1,105 @@
+.main-container {
+    width: 25%;
+    height: 55%;
+    box-shadow: 0px 0px 5px 1px lightgray;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+.profile { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.img-uplod {
+    background-color: rgba(243, 153, 9, 0.474);
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+.img-input { 
+    width: 6rem;
+    height: 2rem;
+}
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: -2rem;
+
+}
+
+.detilas-first-last-name { 
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+.detilas-first-last-name input{ 
+    width: 22.5rem;
+    height: 2.3rem;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    outline: none;
+    
+} 
+
+.first-name-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.last-name-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.input-details { 
+    width: 50%rem;
+    height: 2.3rem;
+    border-radius: 3px;
+    border:1px solid lightgray;
+}
+
+.button-container { 
+    display: flex;
+    gap: 1rem;
+}
+.cancel-btn { 
+    width: 10rem;
+    height: 2.4rem;
+    border-radius: 4px;
+    border: 1px solid rgb(243, 154, 9);
+    background-color: white;
+    color: rgb(243, 154, 9);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.submit-btn { 
+    width: 10rem;
+    height: 2.4rem;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: rgb(243, 154, 9);
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+
